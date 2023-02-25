@@ -51,6 +51,12 @@
 ###### spring.cloud.gateway.routes[0].predicates[0]= Path=/producto/**
 
 ## Dependencia
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
