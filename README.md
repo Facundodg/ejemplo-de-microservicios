@@ -25,6 +25,12 @@
 ###### eureka.client.fetch-registry=false
 ###### eureka.server.enableSelfPreservation=false
 
+## Dependencias
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
+
 # Configuracion basica API geteway
 
 ###### server.port=8090
