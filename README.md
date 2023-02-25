@@ -2,7 +2,7 @@
 
 # Este ejemplo lo dejo como maqueta para proximos proyectos
 
-#Configuracion basica de un microservicio:
+# Configuracion basica de un microservicio:
 
 ###### spring.jpa.database=POSTGRESQL
 ###### spring.datasource.platform=postgres
@@ -18,14 +18,14 @@
 ###### server.port=0
 ###### eureka.instance.instance-id=${spring.application.name}:${random.uuid}
 
-#Configuracion basica Servicor eureka 
+# Configuracion basica Servicor eureka 
 
 ###### server.port=8761
 ###### eureka.client.register-with-eureka=false
 ###### eureka.client.fetch-registry=false
 ###### eureka.server.enableSelfPreservation=false
 
-#Configuracion basica API geteway
+# Configuracion basica API geteway
 
 ###### server.port=8090
 ###### spring.application.name = api-gateway
