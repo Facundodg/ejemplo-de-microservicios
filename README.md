@@ -18,6 +18,14 @@
 ###### server.port=0
 ###### eureka.instance.instance-id=${spring.application.name}:${random.uuid}
 
+
+## Dependencia
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
 # Configuracion basica Servicor eureka 
 
 ###### server.port=8761
@@ -25,7 +33,7 @@
 ###### eureka.client.fetch-registry=false
 ###### eureka.server.enableSelfPreservation=false
 
-## Dependencias
+## Dependencia
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
@@ -41,3 +49,11 @@
 ###### spring.cloud.gateway.routes[0].id=producto-microservice
 ###### spring.cloud.gateway.routes[0].uri=lb://PRODUCTO-MICROSERVICE
 ###### spring.cloud.gateway.routes[0].predicates[0]= Path=/producto/**
+
+## Dependencia
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
