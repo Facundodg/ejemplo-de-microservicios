@@ -1,0 +1,5 @@
+com\ejemploMicroservices\ejemplo\EjemploApplication.class
+com\ejemploMicroservices\ejemplo\Model\Producto.class
+com\ejemploMicroservices\ejemplo\Repocitori\ProductoRepo.class
+com\ejemploMicroservices\ejemplo\Services\ProductoService.class
+com\ejemploMicroservices\ejemplo\Controllers\ProductoController.class
