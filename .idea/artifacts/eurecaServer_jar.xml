@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eurecaServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/eurecaServer_jar</output-path>
+    <root id="archive" name="eurecaServer.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/server-eureka/src/main/resources" />
+    </root>
+  </artifact>
+</component>

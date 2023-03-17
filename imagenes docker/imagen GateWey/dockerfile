@@ -1,5 +1,4 @@
 FROM openjdk:17
-EXPOSE 8080
-ARG JAR_FILE=target/spring-boot-docker.jar
-ADD servicio-gateway.jar servicio-gateway.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+EXPOSE 8090
+ADD gateway.jar gateway.jar
+ENTRYPOINT ["java","-jar","/gateway.jar"]

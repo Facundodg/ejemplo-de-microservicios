@@ -1,5 +1,4 @@
 FROM openjdk:17
 EXPOSE 8761
-ARG JAR_FILE=target/spring-boot-docker.jar
-ADD eurekaServer.jar eurekaServer.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+ADD eurecaServer2.jar eurecaServer2.jar
+ENTRYPOINT ["java","-jar","/eurecaServer2.jar"]
