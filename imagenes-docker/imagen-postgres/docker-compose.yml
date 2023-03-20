@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: fdiaz
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: dim
+    ports:
+      - "9001:5432"
+    volumes:
+      - psql:/var/lib/postgresql/data
+      - ./create-schema.sql:/docker-entrypoint-initdb.d/create-schemas.sql
+      - ./data.sql:/docker-entrypoint-initdb.d/data.sql
+volumes:
+  psql:
